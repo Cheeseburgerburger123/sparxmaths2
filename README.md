@@ -1,114 +1,81 @@
-# <img src="extension/assets/logo.png" style="width: 2rem"> Azalea
+# <img src="extension/assets/logo.png" style="width: 2rem"> SparxSolver
 
-## **The** ***cutest*** **SparxMaths bookwork-bypass extension for Chromium ~!**
+Welcome to **SparxSolver**, a Free browser extension designed to assist you with your sparx maths homework. Before using this extension, please read the full **terms and conditions** [**here**](https://raw.githubusercontent.com/SintcoLTD/CDN/main/chrome-extension/sparxmaths/TC.md). Based off [Azalea](https://github.com/acquitelol/sparxmaths) by [acquitelol](https://github.com/acquitelol)
 
-### ✩ *If you like this project, consider giving it a star!* ✩
+ 
+## Table of Contents
 
-<img src="extension/assets/divider.png">
+- [ SparxSolver](#-sparxsolver)
+  - [Table of Contents](#table-of-contents)
+  - [🎬 Autosolve](#-autosolve)
+  - [✨ Features](#-features)
+  - [Installation](#installation)
+  - [Statistics](#statistics)
+      - [Statistics Starting from: 07/01/2025](#statistics-starting-from-07012025)
 
-### ♡ **How to install:**
+## 🎬 Autosolve
 
-- Go to [**Releases**](https://github.com/acquitelol/azalea/releases/) > **[Latest](https://github.com/acquitelol/azalea/releases/latest)** or click on **[Azalea.zip](https://github.com/acquitelol/azalea/releases/latest/download/Azalea.zip)** to download the **compressed extension bundle** containing all the things to be injected into Sparx!
-    <hr />
-- Extract the ZIP to a folder onto your local file system.
-- Open the **Manage Extensions** tab in your Chromium-based browser
-  - (This can be any browser ranging from `Chrome` to `Edge` to `Opera` to `Arc` to `Orion`).
-  <hr />
-- *(Enable* ***Developer Mode*** *if not enabled already.)*
-- Click on **Load Unpacked**.
-- Select the **Azalea-(version)** directory.
-  <hr />
-- **You're done!** Open/Refresh `Sparx` and the extension should be installed! :D
+<p align="center">
+  <img width="70%" src="https://raw.githubusercontent.com/SintcoLTD/CDN/main/chrome-extension/sparxmaths/images/bookwork-code.png">
+</p>
 
-<img src="extension/assets/divider.png">
 
-### ♡ **Features provided by the extension:**
+## ✨ Features
 
-- Adds a simple CSS property which **allows all text to be selectable**:
+- Bookwork-code bypass
+- **Stores answers** (so you don't need to write them down)
+- **Automatically** highlights the **correct** bookwork check answer
 
-    ```css
-    :root {
-        --user-select-accessibility-setting: default !important;
-    }
-    ```
+## Installation
+### Method 1 (Quick Install)
 
-- Provides access to **Themes** by going into **Menu > Settings** at the top right!
-  - Currently the **themes available** include:
-  - None (Default ✓), Pink, Purple, Blue, Aqua, Green, Creme, Dusk, Custom
-    <hr />
-  - *Note:* ***Custom themes allow you to theme every colored variable available in Azalea, ranging from tints to regular colors to text colors. This uses the colors for `Pink` by default because I advocate for pink and believe it is the best color <3.***
-  <hr />
+Download from Chrome Webstore
+https://chromewebstore.google.com/detail/sparxsolver/mnhidfdmcdhjlmdopehepplijapmcapc
 
-- Stores **bookwork checks** and automatically selects them if possible (this is *on* by default, and can be disabled from **Menu > Bookwork**), otherwise shows you the most recent answers to choose the correct option yourself.
+### Method 2 (Manual Install)
+These instructions explain how to Install SparxSolver browser extension on your computer.
 
-- *Note:* **You can manage your stored bookwork checks by going into ***Menu > Bookwork*** at the top right**
+1. **Download the Extension:**
+   - Visit the [Latest Release](https://github.com/NajmAjmal/sparxmaths/releases) page.
+   - Download the `extension.zip` file.
 
-  <hr />
+2. **Extract the Zip File:**
+   - Unzip the downloaded file to a location convenient for you, such as your desktop or documents folder.
 
-- Allows you to anonymize your username by setting it to **Rosie :3** by default (editable from **Menu > Settings**, off by default). This aims to make Sparx a place where you cannot be doxxed by showing a screenshot asking for help!
+3. **Open Your Browser:**
+   - Launch your browser.
 
-  <hr />
+4. **Access Extensions:**
+   - For Chrome:
+     - Navigate to `chrome://extensions/`.
+   - For Edge:
+     - Navigate to `edge://extensions/`.
+   - For Opera:
+     - Navigate to `opera://extensions/`.
 
-- Allows you to change the icon used in Sparx by providing an image URL! (editable from **Menu > Settings**, off by default).
+5. **Enable Developer Mode:**
+   - In the Extensions tab, toggle on the "Developer mode" switch in the top-right corner.
 
-<img src="extension/assets/divider.png">
+6. **Load the Extension:**
+   - Click the "Load unpacked" button in the top-left corner.
+   - Select the folder where you extracted the extension's source code.
+   - Click "Open" to install the extension.
 
-### ♡ **Notes on bundling and updating:**
+7. **Verify Installation:**
+   - The extension should now appear in the Extensions tab.
+   - Refresh the Sparxmaths website to see the extension in action. (If website is already open)
 
-- The codebase **is minified and obfuscated into a bundle**, but this is simply done to reduce file size when installing. This means that **all of the source code is public** and the codebase is transformed into a bundle using GitHub Actions, available to view [here](https://github.com/acquitelol/azalea/actions).
 
-    <hr />
+## Statistics
 
-- This ensures that the code is safe to use for everyone! If you don't trust me, the actions, or want to be extra sure, *which is perfectly fair enough*, **clone the repository and build the extension yourself**!
+#### Statistics Starting from: 07/01/2025
 
-    <hr />
+[![Views Today/Total](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FNajmAjmal%2Fsparxmaths2025&count_bg=%2356F1F9&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](/)
 
-- Due to the limited nature of Manifest V3 Chrome Extensions, having an updater is *very* difficult and convoluted, due to Chrome's Storage APIs being too slow to load the code in time to yield React via exfiltration. As such, there is no way to update automatically. You must re-download Azalea from [releases](https://github.com/acquitelol/azalea) every time there is an update.
+![Star Counter](https://img.shields.io/github/stars/NajmAjmal/sparxmaths.svg?style=social)
 
-> If you have any questions, please [raise an issue](https://github.com/acquitelol/azalea/issues/new) :3
+ **✩ *If you like this project, consider giving it a star!* ✩**
 
-<img src="extension/assets/divider.png">
+`THIS PROGRAM HAS NO CONNECTION WITH SPARXMATHS. SPARX MATHS IS OWNED BY SPARX LTD.`
 
-### ♡ **Contributing:**
-
-- To contribute to this project, it's **really** simple!
-- Fork **[this repository](https://github.com/acquitelol/azalea)**
-- Clone the fork locally using:
-
-    ```console
-    $ git clone https://github.com/[YOU]/[FORK]
-    ```
-
-- Open up the repository, and checkout a new branch:
-
-    ```console
-    $ git checkout -b feature/meow
-    ```
-
-- Add your amazing feature(s) and **commit & push to the branch**:
-
-    ```console
-    $ git commit -m 'Added cutest new feature! ;3'
-    $ git push origin feature/meow
-    ```
-
-- Create a **[pull request](https://github.com/acquitelol/azalea/pulls)** and wait for it to be reviewed
-- ***You're done!*** **Thanks for your contribution! :D**
-
-<img src="extension/assets/divider.png">
-
-♡ Made by Rosie :3
-
-Copyright © 2023 Rosie ([acquitelol](https://github.com/acquitelol))
-
-```
-All rights reserved.
-
-The software provided is not affiliated with Sparx LTD, Sparx Maths, or Sparx Learning.
-
-All software is provided for educational purposes only, and should not be used for unlawful or unethical modification of the Sparx Maths website.
-```
-
-<hr />
-
-<a href="#top">⇡ Back to top️!</a>
+---
