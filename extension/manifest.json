@@ -1,7 +1,7 @@
 {
-    "name": "Azalea",
+    "name": "SparxSolver V2",
     "version": "3.6.2",
-    "description": "The cutest SparxMaths extension for Chromium ~!",
+    "description": "Patch for SparxSolver!",
     "manifest_version": 3,
     "author": "Rosie",
 
@@ -13,7 +13,7 @@
         "default_icon": {
             "128": "assets/logo.png"
         },
-        "default_title": "Azalea"
+        "default_title": "SparxSolver V2"
     },
 
     "permissions": [
@@ -22,21 +22,21 @@
     ],
 
     "host_permissions": [
-        "*://*.sparxmaths.uk/*",
-        "https://www.sparxmaths.uk/*",
-        "*://auth.sparxmaths.uk/*"
+        "*://*.sparx-learning.com/*",
+        "https://www.sparx-learning.com/*",
+        "*://auth.sparx-learning.com/*"
     ],
 
     "content_scripts": [
         {
             "js": [ "index.js" ],
-            "matches": [ "https://*.sparxmaths.uk/*", "https://sparxmaths.uk/*" ],
+            "matches": [ "https://*.sparx-learning.com/*", "sparx-learning.com/*" ],
             "run_at": "document_start"
         }
     ],
 
     "externally_connectable": {
-        "matches": [ "https://*.sparxmaths.uk/*", "https://sparxmaths.uk/*" ]
+        "matches": [ "https://*.sparx-learning.com/*", "https://sparx-learning.com/*" ]
     },
 
     "web_accessible_resources": [
@@ -47,7 +47,7 @@
                 "core.css"
             ],
             "matches": [
-                "https://*.sparxmaths.uk/*"
+                "https://*.sparx-learning.com/*"
             ]
         }
     ],
